@@ -1,0 +1,25 @@
+{
+  "name": "habit-flow",
+  "version": "1.0.0",
+  "description": "HabitFlow is a lightweight web application designed to help users build consistency by tracking daily goals. This project was built to master the fundamentals of CRUD (Create, Read, Update, Delete) operations and state management in a web environment.\r 🚀 Key Features\r Create: Add custom habits with unique titles and categories.",
+  "homepage": "https://github.com/ccg404/Habit-Flow#readme",
+  "bugs": {
+    "url": "https://github.com/ccg404/Habit-Flow/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccg404/Habit-Flow.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.1",
+    "tailwindcss": "^4.2.1"
+  }
+}

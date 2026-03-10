@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit Flow</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="flex justify-center items-start">
+    <div class="flex justify-center items-start min-h-screen min-w-3xl max-w-2/3 flex-col">
+        <header class="border-b-2 border-b-slate-400 min-w-full max-w-2/4 pt-5 flex flex-row items-center justify-between">
+            <div class="">
+                <h1 class="text-4xl font-bold mb-2">Habit Flow</h1>
+                <p class="text-lg uppercase">Your Daily Progress</p>
+            </div>
+            <div>
+                <span id="habit-progress" class="text-4xl font-bold">0%</span>
+            </div>
+        </header>
+
+        <section class="mt-10 border border-slate-400 w-full p-5 rounded-2xl shadow-2xl">
+            <div class="flex justify-between items-center flex-row">
+                <p>What habit are you starting today?</p>
+                <button class="px-4 py-2 bg-emerald-500 text-white text-center rounded-2xl flex items-center justify-center">+</button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
